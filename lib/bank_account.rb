@@ -25,7 +25,7 @@ class BankAccount
   end
   
   def valid?
-    @status = false
+    name.valid?
   end 
 
 end
