@@ -11,7 +11,7 @@ class Transfer
     @status = "pending"
   end
   
-  def valid? 
+  def valid?(sender, receiver) 
     if @status == "open" 
         true 
      else 
