@@ -8,7 +8,7 @@ class BankAccount
     @name = "Avi"
     @balance = 1000
     @status = "open"
-    @deposit = deposit
+    self << @deposit
     
   end
   
@@ -16,5 +16,8 @@ class BankAccount
     @name
   end 
   
+  def deposit 
+    @deposit
+  end 
 
 end
