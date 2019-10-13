@@ -15,7 +15,7 @@ class BankAccount
     @name
   end 
   
-  def deposit 
+  def deposit(mon) 
    @deposit
   end 
 
