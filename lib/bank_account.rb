@@ -21,6 +21,7 @@ class BankAccount
   end
   
   def display_balance
+    "Your balance is $#{avi.balance}."
   end
 
 end
