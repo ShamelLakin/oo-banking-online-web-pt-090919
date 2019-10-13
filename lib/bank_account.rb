@@ -21,7 +21,7 @@ class BankAccount
   end
   
   def display_balance
-    
+    binding.pry
   end
 
 end
