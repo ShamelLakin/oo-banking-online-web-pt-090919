@@ -4,10 +4,12 @@ class BankAccount
   
   def initialize(account, name)
     @account = account
+    @name = name 
+    
   end
   
-  def name
-    @name
-  end 
+  # def name
+  #   @name
+  # end 
 
 end
