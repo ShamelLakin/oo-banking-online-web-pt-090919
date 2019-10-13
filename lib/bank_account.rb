@@ -8,7 +8,6 @@ class BankAccount
     @name = "Avi"
     @balance = 1000
     @status = "open"
-    self << @deposit
     
   end
   
