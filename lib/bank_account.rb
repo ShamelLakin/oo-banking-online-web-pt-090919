@@ -16,7 +16,7 @@ class BankAccount
   end 
   
   def deposit 
-    self.@account << @deposit
+   @deposit
   end 
 
 end
