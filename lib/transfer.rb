@@ -12,7 +12,7 @@ class Transfer
   end
   
   def valid?(sender, receiver) 
-    if @status.sender.receiver == "open" 
+    if @status == "open" 
         true 
      else 
        false
